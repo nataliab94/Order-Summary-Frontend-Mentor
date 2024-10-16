@@ -1,0 +1,134 @@
+/* COLORS */
+
+/* PRIMARY COLORS */
+
+--clr-primary-pale-blue: hsl(225, 100%, 94%);
+--clr-primary-bright-blue: hsl(245, 75%, 52%);
+
+/* NEUTRAL COLORS */
+
+--clr-neutral-blue-100: hsl(225, 100%, 98%);
+--clr-neutral-blue-300: hsl(224, 23%, 55%);
+--clr-neutral-blue-800: hsl(223, 47%, 23%);
+
+/* FONTS */
+
+--ff-main: 'Red Hat Display', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body{
+    display:grid;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(223, 94%, 94%);
+    min-height: 100vh;
+    place-items: center;
+    font-family:'Red Hat Display', sans-serif;
+    position: center;
+    }
+
+    .container
+    {   
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 20px 40px 5px hsl(223, 73%, 87%);
+        border-radius: 1.25rem;
+        width: 450px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image1{
+        border-radius: 1.25rem;
+
+    }
+
+
+    .header{
+        text-align: center;
+    }
+    .description{
+        text-align:center;
+       width: 300px;
+    }
+
+    .container2{
+        background-color: hsl(225, 100%, 98%);
+        width: 354px;
+        display: flex;
+        padding: 0 25px;
+        margin-bottom: 32px;
+        height: 98px;
+        align-items: center;
+        border-radius: 20px;
+        line-height: 18%;
+        justify-content: space-between;
+    }
+    #img1{
+        border-radius: 20px;
+    }
+
+    .annualprice 
+    { 
+        font-weight: bold;
+        margin-right: 120px;
+
+    }
+
+    #change{
+        
+        text-decoration: none;
+        color: hsl(223, 47%, 23%);
+        
+    }
+
+    #payment{
+        background-color:hsla(242, 76%, 68%);
+        width: 354px;
+        display: flex;
+        padding: 0 25px;
+        justify-content: center;
+        margin-bottom: 32px;
+        align-items: center;
+        border-radius: 20px;
+        color: white; 
+        font-weight: 900;
+        box-shadow: 0 15px 20px hsla(242, 76%, 68%, .5);
+        text-decoration: none;
+        margin-bottom: 15px;
+    }
+
+    #cancel{
+        font-weight: 900;
+        color: #717fa6;;
+        text-decoration: none; 
+        cursor: pointer;
+        border: none;
+        font-size: 0.9375rem;    
+    }
+
+    @media only screen and (max-width: 400px) {
+        body {
+        background-image: url("../img/pattern-background-mobile.svg");
+        background-size: contain;
+       
+        
+        }
+        
+       
+
+
+    
+    
+
+
+
